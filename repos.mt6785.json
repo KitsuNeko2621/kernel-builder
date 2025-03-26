@@ -10,7 +10,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250326-release/Clang-21.0.0git-20250326.tar.gz",
+        "repo": "https://gitlab.com/LeCmnGend/clang.git",
+        "branch":"clang-19"
         "name": "proton-clang",
         "binPath": ["./bin"]
       }
