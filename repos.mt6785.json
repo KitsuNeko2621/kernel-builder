@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Neolit-Kernel",
-      "repo": "https://github.com/Chitransh193/kernel_realme_wasabi",
+      "repo": "https://github.com/sarthakroy2002/kernel_realme_wasabi",
       "branch": "main",
       "device": "RM6785",
       "defconfig": "wasabi_defconfig"
