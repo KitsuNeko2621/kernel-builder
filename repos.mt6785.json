@@ -1,12 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "Nepolit-Kranul",
-      "repo": "https://github.com/Konjikin/kernel_realme_wasabi",
+      "name": "Neolit-Kernel",
+      "repo": "https://github.com/Chitransh193/kernel_realme_wasabi",
       "branch": "main",
-      "device": "RMX2001",
-      "defconfig": "RMX2001_defconfig"
+      "device": "RM6785",
+      "defconfig": "wasabi_defconfig"
     },
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -22,6 +23,7 @@
         "externalCommand": {
           "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
           "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+          "LD": "proton-clang/bin/ld.lld",
           "AR": "proton-clang/bin/llvm-ar",
           "NM": "proton-clang/bin/llvm-nm",
           "OBJCOPY": "proton-clang/bin/llvm-objcopy",
