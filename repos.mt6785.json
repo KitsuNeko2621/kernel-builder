@@ -2,16 +2,16 @@
   {
     "kernelSource": {
       "name": "Neolit-Kernel",
-      "repo": "https://github.com/sarthakroy2002/kernel_realme_wasabi.git",
-      "branch": "R",
+      "repo": "https://github.com/Chitransh193/kernel_realme_wasabi",
+      "branch": "main",
       "device": "RM6785",
       "defconfig": "wasabi_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://gitlab.com/LeCmnGend/clang.git",
-        "branch": "clang-19",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
         "name": "proton-clang",
         "binPath": ["./bin"]
       }
