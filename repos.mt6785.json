@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Neolit-Kernel",
-      "repo": "https://github.com/Konjikin/android_kernel_realme_rm6785",
-      "branch": "lineage-22.1",
+      "name": "psion-Kernel",
+      "repo": "https://github.com/Konjikin/android_kernel_realme_mt6785.git",
+      "branch": "R-based",
       "device": "RM6785",
       "defconfig": "RM6785_defconfig"
     },
