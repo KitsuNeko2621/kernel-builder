@@ -39,7 +39,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/Chitransh193/AK3",
+      "repo": "https://github.com/KitsuNeko2621/AnyKernel-RM6785.git",
       "branch": "main"
     }
   }
